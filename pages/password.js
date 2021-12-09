@@ -5,11 +5,10 @@ function PassWall() {
 
     const handlePassword = (e) => {
         e.preventDefault();
-        console.log(input)
     }
 
     return(
-        <div className="background">
+        <div className="background" style={{background: "gray"}}>
             <form onSubmit={handlePassword}>
                 <label htmlFor="pass">password:</label>
                 <input value={input} onChange={(e) => setInput(e.target.value)} id="pass" type="password"/>
