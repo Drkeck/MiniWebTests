@@ -18,12 +18,12 @@ function PassWall() {
                 </form>
             </div>
             <div className={styles.stencil}>
-                <div className={styles.line1} />
-                <div className={styles.line2} />
-                <div className={styles.line3} />
-                <div className={styles.line4} />
-                <div className={styles.line5} />
-                <div className={styles.line6} />
+                <div className={styles.line1}></div>
+                <div className={styles.line2}></div>
+                <div className={styles.line3}></div>
+                <div className={styles.line4}></div>
+                <div className={styles.line5}></div>
+                <div className={styles.line6}></div>
             </div>
         </div>
     )
